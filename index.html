@@ -27,6 +27,21 @@
     pre { background: #000; color: #fff; padding: 15px;}
     hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
     .footer { text-align:center; padding-top:30px; font-style: italic; }
+    @keyframes leftright {
+          from {
+                  padding-left: 0px;
+                    }
+            to {
+                    padding-left: 50px;
+                      }
+    }
+#hamhei {
+    animation-name: leftright;
+    animation-duration: 1s;
+    animation-timing-function: steps(4, start);
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
   </style>
 </head>
 
@@ -51,11 +66,13 @@
 
     
 
-   <div style = "margin-bottom:12px; padding-top: 5px; padding-bottom: 10px; text-align: center;  background-color: #444; border: medium solid #fff; border-radius: 10px; -webkit-border-radius: 10px;  -moz-border-radius: 10px;">
+   <div style = "width: 200px; margin-bottom:12px; padding-top: 5px; padding-bottom: 10px; text-align: center;  background-color: #444; border: medium solid #fff; border-radius: 10px; -webkit-border-radius: 10px;  -moz-border-radius: 10px;">
        <div style="margin: 5px 0px; font-weight:bold; font-size: 12px;">はむへい牧場 (・◇・)ゝﾋﾞｼｯ</div>
            <div style="margin-bottom: 10px;font-size: 8px;">待望のリアルソーシャルゲーム登場!!<br>みんなではむへいを育てようo(^∇^)o</div>
                &nbsp; &nbsp; &nbsp; <script type="text/javascript" src="http://growbutton.com/javascripts/button.js?apikey=f0962bb0-1f6c-012f-061f-12313f00aced&shape=rectangle"></script>
                <div style="text-align: left; margin: 10px 20px; background-color: #fff; color: #000; font-size: 12px;">
+               <br>
+               <br>
                <br>
                <br>
                <br>
