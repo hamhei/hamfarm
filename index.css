@@ -20,35 +20,39 @@
     hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
     .footer { text-align:center; padding-top:30px; font-style: italic; }
 
-   @-webkit-keyframes leftright {
+#simple-header{ background: #fff; }
+#simple-header ul.menu li a { color: #000; }
+h1 {background: #ffffff; padding: 6px 10%; }
+h1 img {position: relative; top: 50px;}
+
+@-webkit-keyframes leftright {
           from {
-                  padding-left: 0px;
+                  background-position: 0% 0;
                     }
             to {
-                    padding-left: 60px;
+                    background-position: 200% 0;
                       }
     }
 #hamhei {
+    background-image: url("http://dl.dropbox.com/u/3431516/hamfarm/images/ham_ham.png");
+    height: 144px;
     -webkit-animation-name: leftright;
-    -webkit-animation-duration: 4s;
-    -webkit-animation-timing-function: steps(20, start); 
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: steps(2, end); 
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction:alternate;
 }
 
     @-moz-keyframes leftright {
           from {
-                  padding-left: 0px;
+                  background-position: 0% 0%;
                     }
             to {
-                    padding-left: 60px;
+                    background-position: 200% 0%;
                       }
     }
 #hamhei {
     -moz-animation-name: leftright;
-    -moz-animation-duration: 4s;
-    -moz-animation-timing-function: steps(20, start); 
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: steps(2, end); 
     -moz-animation-iteration-count: infinite;
-    -moz-animation-direction:alternate;
 }
- 
