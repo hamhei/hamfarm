@@ -34,6 +34,7 @@ h1 img {position: relative; top: 50px;}
                       }
     }
 #hamhei {
+    width: 144px;
     background-image: url("http://dl.dropbox.com/u/3431516/hamfarm/images/ham_ham.png");
     height: 144px;
     -webkit-animation-name: leftright;
